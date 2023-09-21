@@ -1,0 +1,11 @@
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class demo1 {
+
+	public static void main(String[] args) {
+		FirefoxDriver dr = new FirefoxDriver();
+		dr.get("http://www.facebook.com");
+
+	}
+
+}
