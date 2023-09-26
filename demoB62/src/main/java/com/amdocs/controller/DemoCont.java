@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoCont {
 	@GetMapping("/in")
 	public String show() {
-		return "welcome to spring boot and jenkins";
+		return "Emp name : Bonala Sailaja , Emp ID : 201327";
 	}
 
 }
